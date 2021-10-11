@@ -1,0 +1,22 @@
+.album {
+    margin: 10px;
+    display: flex;
+    flex-direction: column; 
+    width: 300px;
+}
+
+.album h2 {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.album img {
+    height: 300px;
+    width: 300px;
+}
+
+.span {
+    color: #a0a0a0;
+    font-size: 14px;
+    
+}

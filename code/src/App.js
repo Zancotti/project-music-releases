@@ -6,7 +6,6 @@ console.log(data)
 
 export const App = () => {
   const albums = data.albums.items;
-
   return (
     <div>
       <h1>New albums & Singles</h1>

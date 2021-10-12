@@ -1,0 +1,13 @@
+span a {
+    color: #a0a0a0;
+    font-size: 14px;
+    max-width: 300px;
+}
+
+span a:hover{
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.artist-container {
+    margin-bottom: 4px;
+}

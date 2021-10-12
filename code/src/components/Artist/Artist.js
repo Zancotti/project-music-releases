@@ -3,15 +3,24 @@ import "./artist.css";
 
 
 export const Artist = ({artists}) =>{
+
     console.log(artists);
     return(
-        <span>
-            {artists.map((artist)=>{
+        <div className="artist-container">
+            {artists.map((artist, i) => {
+                 let divider = "";
+
+                 if ( i < artists.length -2) {
+                     divider = ", "
+                 }
+                 else if (i === artists.length -2) {
+                     divider = " & "
+                 }
+
                 return(
-                    <span>{artist.name}</span>
+                    <span><a href={artist.external_urls.spotify}>{artist.name}</a>{divider}</span>
                 );
             })}
-        </span>
+        </div>
     );
-
 };

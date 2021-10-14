@@ -1,26 +1,17 @@
 .album {
-    margin: 10px;
-    overflow: hidden;
-  }
-  
-  .album h2 a {
-    color: #ffffff;
-  }
+  margin: 10px;
+  overflow: hidden;
+}
 
-  .album h2 a:hover {
-    border-bottom: 1px solid #ffffff;
-  }
+span {
+  color: #a0a0a0;
+  font-size: 14px;
+  max-width: 300px;
+}
 
-  span {
-    color: #a0a0a0;
-    font-size: 14px;
-    max-width: 300px;
+@media only screen and (min-width: 1025px) {
+  .album img {
+    object-fit: contain;
+    width: 100%;
   }
-  
-  @media only screen and (min-width: 1025px) {
-    .album img {
-      object-fit: contain;
-      width: 100%;
-    }
-  }
-  
+}

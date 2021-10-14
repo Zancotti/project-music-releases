@@ -1,0 +1,21 @@
+@media only screen and (min-width: 1025px) {
+  .playlist-container img {
+    display: grid;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+  }
+
+  .playlist-image-text-container {
+    display: flex;
+    margin: 10px;
+  }
+
+  .playlist-text.container {
+    display: flex;
+    flex-direction: column;
+  }
+  .playlist-text.container h2 {
+    padding-left: 10px;
+  }
+}

@@ -9,6 +9,7 @@ body {
   background-color: rgb(37, 33, 33);
   min-width: 325px;
 }
+
 *,
 *:before,
 *:after {
@@ -33,7 +34,7 @@ h1 {
   margin: 10px auto;
 }
 
-h2{
+h2 {
   font-size: 14px;
   max-width: 300px;
   margin: 4px 0;
@@ -43,19 +44,38 @@ a {
   text-decoration: none;
 }
 
+h2 a {
+  color: #ffffff;
+}
+
+h2 a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.albums-container {
+  display: grid;
+  justify-content: center;
+}
+
+.sidebar-container {
+  display: none;
+}
+
 @media only screen and (min-width: 668px) and (max-width: 1024px) {
   .albums-container {
     justify-content: space-evenly;
     grid-template-columns: auto auto;
   }
-  
+
   h1 {
     max-width: none;
     font-size: 25px;
-    margin-left:50px;
-}
+    margin-left: 50px;
+  }
 
-
+  .sidebar-container {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -63,11 +83,21 @@ a {
     justify-content: space-evenly;
     grid-template-columns: auto auto auto auto;
   }
+
   h1 {
     max-width: none;
     font-size: 30px;
-    margin-left:80px;
-}
+    margin-left: 80px;
+  }
 
+  .sidebar-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background-color: rgb(37, 36, 36);
+  }
 
+  .content {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+  }
 }

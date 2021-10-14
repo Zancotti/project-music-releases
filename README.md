@@ -1,12 +1,13 @@
 # Music Releases
-Replace this readme with your own information about your project.
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+A project where we were supposed to a responsive music-application page in react.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+We tried to split up the components as much as we could to be able to practice using props. We choice to implement some states to be able to use onMouseEnter and onMouseLeave. THis was the easiest way to accomplish the hovering effects that we could find.
+
+If we had more time we would probably do a filter function and make different components for the albums and the singles.
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://musicapp-sabrina-nina.netlify.app/

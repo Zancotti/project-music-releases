@@ -1,38 +1,33 @@
+.image-container {
+  width: 100%;
+  max-height: 300px;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .image-container {
-    width: 100%;
-    max-height: 300px;
-    max-width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .icon-container{
-      max-width: 220px;
-      width: 100%;
-      display: flex;
-      justify-content: space-evenly;
-      z-index: 10;
-      position: absolute;
-  }
+.icon-container {
+  max-width: 220px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 10;
+  position: absolute;
+}
 
-  .icon{
-      width: 20%;
-      fill: white;
-      opacity: 70%;
-  }
+.icon {
+  width: 20%;
+  fill: white;
+  opacity: 0.7;
+}
 
-  .icon:hover {
-    opacity: 100%;
-    transition: all ease-in 200ms;
-    
-  }
+.icon:hover {
+  opacity: 1;
+  transition: all ease-in 200ms;
+}
 
-  .play:hover{
-      width:30%;
-      transition: all ease-in 200ms;
-  }
-
-
-  
+.play:hover {
+  width: 30%;
+  transition: all ease-in 200ms;
+}

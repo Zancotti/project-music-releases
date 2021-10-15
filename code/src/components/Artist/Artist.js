@@ -15,7 +15,7 @@ export const Artist = ({ artists }) => {
         }
 
         return (
-          <span>
+          <span key={artist.id}>
             <a href={artist.external_urls.spotify}>{artist.name}</a>
             {divider}
           </span>

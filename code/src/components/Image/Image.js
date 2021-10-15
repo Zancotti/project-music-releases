@@ -4,6 +4,7 @@ import { ReactComponent as DotsSvg } from "../../icons/dots.svg";
 import { ReactComponent as HeartSvg } from "../../icons/heart.svg";
 import { ReactComponent as PlaySvg } from "../../icons/play.svg";
 
+// change the iconContainer and image opacity with the help of states.
 export const Image = ({ image }) => {
   const [iconContainerStyle, setIconContainerStyle] = useState({
     display: "none",
@@ -13,6 +14,7 @@ export const Image = ({ image }) => {
     opacity: 1,
   });
 
+  // Set the iconcontainerStyle and the imageopacitystyle onMouseEnter and onMouse leave.
   return (
     <div
       className="image-container"

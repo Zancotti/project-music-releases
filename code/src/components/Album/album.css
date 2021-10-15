@@ -9,6 +9,7 @@ span {
   max-width: 300px;
 }
 
+/* ---------------Desktop adaption----------------- */
 @media only screen and (min-width: 1025px) {
   .album img {
     object-fit: contain;

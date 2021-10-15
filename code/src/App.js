@@ -10,10 +10,12 @@ export const App = () => {
 
   return (
     <div className="content">
+      {/* --------------Sidebar section----------------- */}
       <section className="sidebar-container">
         <h1>Popular playlists</h1>
         <Sidebar playlists={playlists} />
       </section>
+      {/* --------------main-container section----------------- */}
       <section className="main-container">
         <h1>New albums & Singles</h1>
         <div className="albums-container">

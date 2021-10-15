@@ -4,6 +4,8 @@ import "./sidebar.css";
 export const Sidebar = ({ playlists }) => {
   return (
     <div className="playlist-container">
+      {/*Map over playlists to get one of the playlists, fetch the img, name and owner of playlist and
+        add a link around the playlist name that goes to the website  */}
       {playlists.map((playlist) => {
         return (
           <div key={playlist.id} className="playlist-image-text-container">

@@ -1,6 +1,7 @@
 import React from "react";
 import "./artist.css";
 
+/* Make a conditional to decide if it should be no char, or a , or a & between the artists*/
 export const Artist = ({ artists }) => {
   return (
     <div className="artist-container">
@@ -13,6 +14,7 @@ export const Artist = ({ artists }) => {
           divider = " & ";
         }
 
+        /* Set the key to artist.id and add a link over the artist name + a empty divider or , & inbetween when it is many artist*/
         return (
           <span key={artist.id}>
             <a href={artist.external_urls.spotify}>{artist.name}</a>

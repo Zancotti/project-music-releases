@@ -2,7 +2,6 @@ import React from "react";
 import "./sidebar.css";
 
 export const Sidebar = ({ playlists }) => {
-  console.log(playlists);
   return (
     <div className="playlist-container">
       {playlists.map((playlist) => {

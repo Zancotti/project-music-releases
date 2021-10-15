@@ -2,7 +2,6 @@ import React from "react";
 import "./artist.css";
 
 export const Artist = ({ artists }) => {
-  console.log(artists);
   return (
     <div className="artist-container">
       {artists.map((artist, i) => {
